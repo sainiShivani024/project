@@ -47,7 +47,7 @@ function Init(app) {
 
     blog.blog_name = name ? name : blog.name;
     blog.language = language ? language : blog.language;
-    blog.content = content ? content : blog.quality;
+    blog.content = content ? content : blog.content;
    
  
     await blog.save();
