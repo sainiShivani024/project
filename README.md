@@ -5,6 +5,7 @@
  To run this project
  npm install(use npm install to install node modules packages.)
  npm start
+ (this will create two table in database by the name of user and blog)
  
  # Directories in project
  *Controller
