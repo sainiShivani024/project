@@ -7,6 +7,11 @@
  npm start
  (this will create two table in database by the name of users and blogs)
  
+ # Requirements
+ node
+ vscode
+ postman postgresSql
+ 
  # Directories in project
  *Controller
  controller contains three files auth.js, blog.js, user.js .The auth.js file use jwt authentication
