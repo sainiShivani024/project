@@ -7,8 +7,8 @@
  npm start
  
  # Directories in project
- Controller
- Db
+ *Controller
+ *Db
  
  
  # db folder
