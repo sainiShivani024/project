@@ -5,16 +5,18 @@
  To run this project
  npm install(use npm install to install node modules packages.)
  npm start
- (this will create two table in database by the name of user and blog)
+ (this will create two table in database by the name of users and blogs)
  
  # Directories in project
  *Controller
+ controller contains three files auth.js, blog.js, user.js .The auth.js file use jwt authentication
+ if user email and password match then they generate a token after that a user can create a new blog.
  *Db
  
  
  # db directory
  db folder contains database connection which contains the models folders in which
- two tables are created that is blog and user.js which contains the definition of table columns
+ two tables are created that is blog.js and user.js which contains the definition of table columns
  in it.
  
  # APIs
